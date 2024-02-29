@@ -1,5 +1,11 @@
-body {background-color: white;}
-h1 {color: black; text-align: center;}
-h2 {color: black; text-align: center;}
-p {color: black; text-align: left;}
+body {background-color: white; 
+     margin-left: 30%;
+     margin-right: 20%;}
+h1 {color: black; 
+    text-align: center;
+   font-size: 300%;}
+h2 {color: black; 
+    text-align: center;}
+p {color: black;
+   text-align: left;}
 
