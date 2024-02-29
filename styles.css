@@ -1,13 +1,5 @@
 
-.overpass-<uniquifier> {
-  font-family: "Overpass", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 body {background-color: white;}
-
 h1 {color: black;}
 h2 {color: black;}
 p {color: black;}
