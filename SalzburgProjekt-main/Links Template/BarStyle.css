@@ -67,3 +67,7 @@ ul {
   div.contentbox{
     backdrop-filter: 10px; 
   }
+ h1.titles{
+
+    text-align: center;
+}
