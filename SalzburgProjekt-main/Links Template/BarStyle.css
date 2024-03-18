@@ -1,28 +1,35 @@
 
 /*page links template*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #38444d; /* color to choose here */
+    width: 100%;
+  display: flex; 
   }
   
   li {
-    float: left;
-  }
+  flex: 1; 
+ }
   
   li a, .dropbtn {
-    display: inline-block;
+    display: block;
     color: white; /* color to choose here */
     text-align: center;
-    padding: 14px 201.4px; /* tweak the pixel size as you please */
+    padding: 5% 0;
     text-decoration: none;
   }
   
   li a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(87, 208, 230); /* color to choose here */
-    text-align: left;
+    
     
   }
   
@@ -32,19 +39,20 @@ ul {
   
   div.dropdown-content {
     display: none;
+    width: 24.82%;
     position: absolute;
     background-color: #797070; /* color to choose here */
-    min-width: 160px; /* tweak the pixel size as you please */
+    min-width: 10%;
     
    
   }
   
   .dropdown-content a {
     color: black; /* color to choose here */
-    padding:  25px  186.8px; /* tweak the pixel size as you please */
-  
+    padding: 20px 0;
     display: block;
     text-align: center;
+    width: 100%;
   }
   
   .dropdown-content a:hover {
