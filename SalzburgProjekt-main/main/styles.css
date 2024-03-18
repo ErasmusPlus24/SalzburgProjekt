@@ -1,0 +1,26 @@
+body {background-color: #7599bb; 
+     margin-left: 30%;
+     margin-right: 20%;
+    }
+
+h1 {color: black; 
+    text-align: center;
+   font-size: 300%;
+   font-family: "Overpass", sans-serif;
+   font-optical-sizing: auto;}
+ 
+h2 {color: black; 
+    text-align: center;
+    font-size: 300%;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;}
+
+    p {color: black;
+   text-align: left;}
+
+    .main {
+       
+        background-color: white;
+        text-align: center;
+    }
+
