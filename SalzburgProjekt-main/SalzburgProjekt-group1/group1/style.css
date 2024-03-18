@@ -1,57 +1,64 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 #title {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 .container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
 }
 .sport-container {
-    background-color: #d4d4c8;
-    width: 45%;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: #d4d4c8;
+  width: 45%;
+  padding: 20px;
+  border-radius: 10px;
 }
 h2 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 h3{
-    margin-bottom: 1%;
+  margin-bottom: 1%;
 }
 p {
-    text-align: justify;
-    line-height: 1.5;
-    text-decoration: solid;
-    text-decoration: black;
-}        ul {
+  text-align: justify;
+  line-height: 1.5;
+  text-decoration: solid;
+  text-decoration: black;
+}        body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ }
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #38444d;
+    background-color: #38444d; /* color to choose here */
+    width: 100%;
+  display: flex; 
   }
   
   li {
-    float: left;
-  }
+  flex: 1; 
+ }
   
   li a, .dropbtn {
-    display: inline-block;
-    color: white;
+    display: block;
+    color: white; /* color to choose here */
     text-align: center;
-    padding: 14px 201.4px;
+    padding: 5% 0;
     text-decoration: none;
   }
   
   li a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(87, 208, 230);
-    text-align: left;
+    background-color: rgb(87, 208, 230); /* color to choose here */
+    
     
   }
   
@@ -61,30 +68,36 @@ p {
   
   div.dropdown-content {
     display: none;
+    width: 24.82%;
     position: absolute;
-    background-color: #797070;
-    min-width: 160px;
+    background-color: #797070; /* color to choose here */
+    min-width: 10%;
     
    
   }
   
   .dropdown-content a {
-    color: black;
-    padding:  25px  186.8px;
-  
+    color: black; /* color to choose here */
+    padding: 20px 0;
     display: block;
     text-align: center;
+    width: 100%;
   }
   
   .dropdown-content a:hover {
-    background-color: #25a4c4;
+    background-color: #25a4c4; /* color to choose here */
     
   }
   
   .dropdown:hover .dropdown-content {
     display: block;
-    padding: 12px ;
+    padding: 12px ; 
   }
   div.contentbox{
-    backdrop-filter: 10px;
+    backdrop-filter: 10px; 
   }
+  h1.titles{
+
+      text-align: center;
+  }
+
