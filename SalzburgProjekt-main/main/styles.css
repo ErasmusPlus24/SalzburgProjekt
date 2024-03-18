@@ -1,4 +1,4 @@
-body {background-color: #7599bb; 
+/*body {background-color: #7599bb; 
      margin-left: 30%;
      margin-right: 20%;
     }
@@ -22,5 +22,77 @@ h2 {color: black;
        
         background-color: white;
         text-align: center;
+    }*/
+    
+/*page links template*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #38444d; /* color to choose here */
+      width: 100%;
+    display: flex; 
     }
+    
+    li {
+    flex: 1; 
+   }
+    
+    li a, .dropbtn {
+      display: block;
+      color: white; /* color to choose here */
+      text-align: center;
+      padding: 5% 0;
+      text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn {
+      background-color: rgb(87, 208, 230); /* color to choose here */
+      
+      
+    }
+    
+    li.dropdown {
+      display: inline-block;
+    }
+    
+    div.dropdown-content {
+      display: none;
+      width: 24.82%;
+      position: absolute;
+      background-color: #797070; /* color to choose here */
+      min-width: 10%;
+      
+     
+    }
+    
+    .dropdown-content a {
+      color: black; /* color to choose here */
+      padding: 20px 0;
+      display: block;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #25a4c4; /* color to choose here */
+      
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+      padding: 12px ; 
+    }
+    div.contentbox{
+      backdrop-filter: 10px; 
+    }
+    h1.titles{
 
+        text-align: center;
+    }
